@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  line-height: 75px;
+  margin-left: 35px;
+  font-size: 28px;
+}
+.intestazione{
+  width: 100%;
+  height: 75px;
+  background-color: #fdbb40;
+}
+.main-container {
+  width: 50%;
+  margin: auto;
+}
+#nameYourBurger {
+  height: 35px;
+  width: 75%;
+  margin: 20px 35px;
+  font-size: 22px;
+  border: none;
+}
+.box{
+  width: 50%;
+}
+.img-container{
+  width: 40px;
+}
+.row-box {
+  display: flex;
+  height: 40px;
+  margin: 15px 0;
+}
+.label {
+  margin-top: 10px;
+  margin-left: 7px;
+  font-weight: bold;
+}
+.ingredient-container {
+  padding-left: 35px;
+  width: 100%;
+  display: flex;
+}
+.ingredient-title{
+  margin: 20px 35px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.ingredient-checkbox{
+  margin-top: 13px;
+  margin-left: 7px;
+}
+.discountCuponTitle{
+  display: inline-block;
+}
+#discountText{
+  width: 75%;
+  background-color: #fff5e2;
+  height: 25px;
+  border: none;
+  padding-left: 10px;
+}
+#button-submit{
+  padding: 15px;
+  border-radius: 7px 7px;
+  border: none;
+  background-color: #fdbb40;
+  font-weight: bold;
+}
+.button {
+  width: 100%;
+  text-align: center;
+  margin: 15px 0;
+}
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #d33359;
+  display: flex;
+  justify-content: space-between;
+}
+.price{
+  color: white;
+  line-height: 60px;
+  margin: 0 20px;
+  font-size: 25px;
+}

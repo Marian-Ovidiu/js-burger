@@ -7,16 +7,58 @@
   </head>
   <body>
 
-    <div class='ingredient-container'>
-      <input type="checkbox" class="ingredient-checkbox" name="list[]" value='5'>Cheese
-      <input type="checkbox" class="ingredient-checkbox" name="list[]" value='7'>Egg
-      <input type="checkbox" class="ingredient-checkbox" name="list[]" value='2'>Mustard
-      <input type="checkbox" class="ingredient-checkbox" name="list[]" value='9'>Tomato
-      <input type="checkbox" class="ingredient-checkbox" name="list[]" value='9'>Lettuce
-      <input type="checkbox" class="ingredient-checkbox" name="list[]" value='2'>Ketchup
+    <div class="main-container">
+      <header class="intestazione">
+        <h1>Create Your Burger</h1>
+      </header>
+      <input type="text" id="nameYourBurger" name="" value="" placeholder="Name Your Burger">
+      <div class="ingredient-title">Ingredients</div>
+      <div class='ingredient-container'>
+        <div class="box">
+          <div class="row-box">
+            <div class="img-container"><img src="img/cheese.svg"></div>
+            <div class="label"><label for="Cheese">Cheese</label></div>
+            <input type="checkbox" id="Cheese" class="ingredient-checkbox" name="list[]" value='5'>
+          </div>
+          <div class="row-box">
+            <div class="img-container"><img src="img/fried-egg.svg"></div>
+            <div class="label"><label for="Egg">Egg</label></div>
+            <input type="checkbox" id="Egg" class="ingredient-checkbox" name="list[]" value='7'>
+          </div>
+          <div class="row-box">
+            <div class="img-container"><img src="img/mustard.svg"></div>
+            <div class="label"><label for="Mustard">Mustard</label></div>
+            <input type="checkbox" id="Mustard" class="ingredient-checkbox" name="list[]" value='2'>
+          </div>
+        </div>
+        <div class="box">
+          <div class="row-box">
+            <div class="img-container"><img src="img/tomato.svg"></div>
+            <div class="label"><label for="Tomato">Tomato</label></div>
+            <input type="checkbox" id="Tomato" class="ingredient-checkbox" name="list[]" value='9'>
+          </div>
+          <div class="row-box">
+            <div class="img-container"><img src="img/lettuce.svg"></div>
+            <div class="label"><label for="Lettuce">Lettuce</label></div>
+            <input type="checkbox" id="Lettuce" class="ingredient-checkbox" name="list[]" value='9'>
+          </div>
+          <div class="row-box">
+            <div class="img-container"><img src="img/mustard.svg"></div>
+            <div class="label"><label for="Ketchup">Ketchup</label></div>
+            <input type="checkbox" id="Ketchup"class="ingredient-checkbox" name="list[]" value='2'>
+          </div>
+        </div>
+      </div>
+      <div class="discountCuponTitle">Discount Cupon</div>
+      <input id="discountText" type="text" name="discount" placeholder="12345DJKSDjsne">
+      <div class="button"><button id='button-submit' type="button" name="button">Click here</button></div>
+
+      <footer>
+        <div class="price" id="yourPrice">Your Price</div>
+        <div class="price" id="price">50$</div>
+      </footer>
     </div>
-      <input type="text" name="discount" value="" placeholder="discount cupon">
-    <button id='button-submit' type="button" name="button">Click here</button>
+
 
     <script src="js/script.js" type="text/javascript"></script>
   </body>
